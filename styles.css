@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+/*Configuración CSS para el section que contiene el header*/
+#headerSect {
+    width: 100%;
+    height: 400px;
+    background-color: #1F2937;
+
+    display: flex;
+    flex-direction: column; /*Sirve para orientar todo el contenido dentro del section en columna y así solucionar el problema de 
+                                que #infoHeader se vaya a la derecha del header*/
+}
+
+#headerSect header {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    align-content: space-between;
+
+    background-color: yellow;
+}
+
+#headerSect header #logo, #extLinks {
+    width: 45%;
+    height: 100%;
+    margin: 0 10% 0 10%;
+}
+
+#headerSect header #logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#headerSect header #extLinks {
+    display: flex;
+    align-content: space-between;
+
+    align-content: center;
+    align-items: center;
+}
+
+#headerSect header #extLinks > a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0 5% 0 3%;
+}
+
+#headerSect #infoHeader {
+    width: 20%;
+    height: 80%;
+    background-color: red;
+    
+    margin: 0 auto;
+    display: flex;
+}
