@@ -8,7 +8,7 @@
 /*Configuración CSS para el section que contiene el header*/
 #headerSect {
     width: 100%;
-    height: 400px;
+    height: 465px;
     background-color: #1F2937;
 
     display: flex;
@@ -22,8 +22,7 @@
 
     display: flex;
     align-content: space-between;
-
-    background-color: yellow;
+    margin-bottom: 1%;
 }
 
 #headerSect header #logo, #extLinks {
@@ -53,10 +52,54 @@
 }
 
 #headerSect #infoHeader {
-    width: 20%;
-    height: 80%;
-    background-color: red;
+    width: 50%;
+    height: 55%;
     
     margin: 0 auto;
     display: flex;
+    align-content: space-between;
+}
+
+#headerSect #infoHeader #infoLeft, #infoRight {
+    width: 50%;
+    height: 100%;
+
+    padding-left: 1%;
+}
+
+#headerSect #infoHeader  #infoRight {
+    background-color: #808080;
+
+    font-size: 18px;
+    color: #E5E7EB;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 5%;
+}
+
+#headerSect #infoHeader #infoLeft > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#headerSect #infoHeader #infoLeft > p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 1%;
+}
+
+
+#headerSect #infoHeader #infoLeft > button{
+    width: 30%;
+    height: 15%;
+
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    font-size: 15px;
+    color: #F9FAF8;
+    margin-top: 3%;
 }
