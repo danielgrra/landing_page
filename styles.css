@@ -8,7 +8,7 @@
 /*Configuración CSS para el section que contiene el header*/
 #headerSect {
     width: 100%;
-    height: 465px;
+    height: 450px;
     background-color: #1F2937;
 
     display: flex;
@@ -25,23 +25,27 @@
     margin-bottom: 1%;
 }
 
-#headerSect header #logo, #extLinks {
-    width: 45%;
-    height: 100%;
-    margin: 0 10% 0 10%;
-}
-
 #headerSect header #logo {
+    width: 25%;
+    height: 100%;
+
     font-size: 24px;
     color: #F9FAF8;
+
+    margin-left: 19%;
 }
 
 #headerSect header #extLinks {
+    width: 30%;
+    height: 100%;
+
     display: flex;
     align-content: space-between;
 
     align-content: center;
     align-items: center;
+
+    margin-left: 15%;
 }
 
 #headerSect header #extLinks > a {
@@ -52,12 +56,13 @@
 }
 
 #headerSect #infoHeader {
-    width: 50%;
-    height: 55%;
+    width: 63%;
+    height: 60%;
     
     margin: 0 auto;
     display: flex;
     align-content: space-between;
+
 }
 
 #headerSect #infoHeader #infoLeft, #infoRight {
@@ -102,4 +107,117 @@
     font-size: 15px;
     color: #F9FAF8;
     margin-top: 3%;
+}
+
+/* CSS Code applied Some Random Information */
+#rndInfo {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#rndInfo h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#rndInfo #squareCont {
+    height: 65%;
+    width: 50%;
+
+    display: flex;
+    flex-direction:row;
+    margin-top: 2%;
+}
+
+#rndInfo #squareCont .square {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#rndInfo #squareCont .square .ilust {
+    width: 80%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#rndInfo #squareCont .square .ilust .finalSqu {
+    width: 100%;
+    height: 60%;
+
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #3882F6;
+
+    margin-bottom: 10%;
+}
+
+#rndInfo #squareCont .square .ilust > p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* CSS Code applied to Quote section*/
+#sectQuo {
+    width: 100%;
+    height: 400px;
+    background-color: #E5E7EB;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectQuo #quoCont {
+    width: 43%;
+    height: 65%;
+}
+
+#sectQuo #quoCont #qTxt {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+#sectQuo #quoCont #auth {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+
+    margin-right: 5%;
+}
+
+/* CSS Code applied to Quote section*/
+#actionCall {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actionCall #setCall {
+    width: 70%;
+    height: 60%;
+
+    background-color: #3882F6;
 }
